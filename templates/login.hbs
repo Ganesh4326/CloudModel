@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <title>login</title>
+    <style>
+      * { margin: 0;padding:0; font-size: 16px; padding: 0; }
+      body:not(.background) {font-family: monospace; background-color: #88B04B;
+      } .background{ border-radius:15px; background-color: white; box-shadow:
+      10px 20px 35px rgba(56, 239, 267, 0.8);transform:
+      translateY(-10px);border:2px solid grey;padding: 40px
+      ;position:absolute;left:35%;top:200px; width:500px; height:300px; } .form{
+      padding:30px; } input[type=text],input[type=password],input[type=email],
+      select { width: 100%; padding: 12px 20px; margin: 8px 0; display:
+      inline-block; border: 1px solid #ccc; border-radius: 4px; box-sizing:
+      border-box; } .a{ text-decoration:none; } .button { width: 140px; height:
+      45px; font-size: 14px; font-weight:bold; margin-left:170px;
+      text-transform: uppercase; letter-spacing: 2.5px; font-weight: 500; color:
+      #000; background-color: #fff; border: none; border-radius: 45px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); transition: all 0.3s ease 0s;
+      cursor: pointer; outline: none; } .button:hover { background-color:
+      #2EE59D; box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4); color: #fff;
+      transform: translateY(-7px); } .h2{ margin-left:200px; margin-top:0;
+      margin-bottom:40px; font-size:30px; } .a{ color:black; position:absolute;
+      margin-left:230px; }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <h2 class="h2">Login</h2>
+
+      <form action="/login" method="post">
+        Email:<input type="email" name="email" placeholder="Email" />
+        Password:<input
+          type="password"
+          name="password"
+          placeholder="Password"
+        /><br /><br />
+        <input class="button" type="Submit" /><br /><br />
+        <a class="a" href="/signup">Click here to create account?</a>
+      </form>
+
+    </div>
+  </body>
+</html>

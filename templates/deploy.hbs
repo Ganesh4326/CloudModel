@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <title>Cloud home</title>
+    <style>
+      * { margin: 0; font-family: monospace; font-size: 16px; padding: 0; } html
+      { width: 100%; height: 100%; } body { width: 100%; height: 100%; margin:
+      0; padding: 0; } button:hover { color: hsl(237, 63%, 64%);
+      background-color: transparent; } /*Media queries*/ @media only screen and
+      (max-width: 760px) { #cards { flex-direction: column; } .card-left,
+      .card-middle, .card-right { margin: 1rem; border-radius: 10px; width: 80%;
+      } } .top { margin-top: 0; background-color: hsl(237, 63%, 64%); height:
+      100px; display: flex; } .logo { font-size: 30px; font-weight: bold;
+      margin-top: 30px; margin-left: 30px; color: white; font-family: monospace;
+      } .wel { margin-top: 50px; color: aliceblue; font-size: 20px; font-weight:
+      bold; margin-left: 38%; font-family: monospace; } .main-g { position:
+      absolute; left: 43%; } .btn { font-family: monospace; margin: 1.5rem auto
+      0.5rem auto; width: 300px; height: 60px; padding: 0.8rem; cursor: pointer;
+      font-size: 1rem; transition-duration: 3000; color: white;
+      background-color: hsl(237, 63%, 64%); border: none; border-radius: 5px;
+      text-transform: uppercase; } .btn:hover { width: 315px; height: 65px;
+      left: 40%; transition-duration: 0.4s; } .comp { position: absolute; left:
+      43%; } .comp-head, .pricing-main { color: white; font-size: 20px;
+      background-color: hsl(237, 63%, 64%); } .n{ position: absolute; right:
+      30px; padding:30px;font-size:20px;color:white}.name{position: absolute;
+      right: 10px; width:40px;height:40px; border-radius:50%;top:23px; }
+    </style>
+    <script>
+
+    </script>
+  </head>
+  <body>
+    <form class="form" action="/deploy" method="post">
+      <input type="string" name="creator" placeholder="Name" />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
